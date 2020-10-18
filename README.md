@@ -29,7 +29,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 Runs the end-to-end tests against the production environment
 
-#### `npx cypress open`
+#### `npm run test`
 
 Run snapshot test
 
