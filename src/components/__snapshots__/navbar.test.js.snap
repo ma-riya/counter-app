@@ -1,0 +1,209 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`expect to render Navbar component 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <NavBar />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="navbar-brand"
+      >
+        <i
+          aria-hidden="true"
+          className="fa fa-shopping-cart fa-lg m-2"
+        />
+        <span
+          className="badge badge-pill badge-info m-2"
+          style={
+            Object {
+              "width": 50,
+            }
+          }
+        />
+        Items
+      </div>,
+      "className": "navbar navbar-light bg-light",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <i
+            aria-hidden="true"
+            className="fa fa-shopping-cart fa-lg m-2"
+          />,
+          <span
+            className="badge badge-pill badge-info m-2"
+            style={
+              Object {
+                "width": 50,
+              }
+            }
+          />,
+          "Items",
+        ],
+        "className": "navbar-brand",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "aria-hidden": "true",
+            "className": "fa fa-shopping-cart fa-lg m-2",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "i",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": undefined,
+            "className": "badge badge-pill badge-info m-2",
+            "style": Object {
+              "width": 50,
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "span",
+        },
+        "Items",
+      ],
+      "type": "div",
+    },
+    "type": "nav",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="navbar-brand"
+        >
+          <i
+            aria-hidden="true"
+            className="fa fa-shopping-cart fa-lg m-2"
+          />
+          <span
+            className="badge badge-pill badge-info m-2"
+            style={
+              Object {
+                "width": 50,
+              }
+            }
+          />
+          Items
+        </div>,
+        "className": "navbar navbar-light bg-light",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <i
+              aria-hidden="true"
+              className="fa fa-shopping-cart fa-lg m-2"
+            />,
+            <span
+              className="badge badge-pill badge-info m-2"
+              style={
+                Object {
+                  "width": 50,
+                }
+              }
+            />,
+            "Items",
+          ],
+          "className": "navbar-brand",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "aria-hidden": "true",
+              "className": "fa fa-shopping-cart fa-lg m-2",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "i",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": undefined,
+              "className": "badge badge-pill badge-info m-2",
+              "style": Object {
+                "width": 50,
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "span",
+          },
+          "Items",
+        ],
+        "type": "div",
+      },
+      "type": "nav",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;
